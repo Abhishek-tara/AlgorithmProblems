@@ -1,10 +1,16 @@
-﻿namespace AlgorithmProblems
+﻿using Sortings;
+
+namespace AlgorithmProblems
 {
     class Porgram
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Data Structures and Algorithm Problems...");
+            Console.WriteLine("Checking for Anagram of two Strings...\n");
+
+            Anagram anagram = new Anagram();
+
+            anagram.DisplayAnagram();
         }
     }
 }
