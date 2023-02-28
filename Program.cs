@@ -4,7 +4,7 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Function to Sort the array of string using Onserrtion sort..\n");
+            Console.WriteLine("Function to Sort the array of string using Insertion sort..\n");
 
             string[] arr = { "Abhi", "am", "I" };
             int n = arr.Length;
